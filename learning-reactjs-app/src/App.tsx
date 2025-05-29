@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <Button color="dark" onClick={() => setAlertVisibility(true)}>
+      <Button color="dark" onClick={() => setAlertVisibility(!alertVisible)}>
         Hello Button
       </Button>
       {alertVisible && (
